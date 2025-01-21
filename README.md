@@ -1,4 +1,4 @@
-The app will be available at http://localhost:7860 by default.
+The app is available at huggingface space https://huggingface.co/spaces/PriyePrabhakar/SanskritBPETokenizer .
 Directory structure should now look like:
 ```
 SanskritBPETokenizer/
