@@ -1,6 +1,7 @@
 The app will be available at http://localhost:7860 by default.
 Directory structure should now look like:
 '''
+
 SanskritBPETokenizer/
 ├── src/
 │   ├── __init__.py
@@ -13,6 +14,7 @@ SanskritBPETokenizer/
 ├── app.py
 ├── requirements.txt
 └── README.md
+
 '''
 ### Instructions
 Make sure you have the tokenizer files (merges_saved.pkl and saved.pkl) in the data/vocab directory before running the app.
