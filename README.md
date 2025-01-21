@@ -1,7 +1,6 @@
 The app will be available at http://localhost:7860 by default.
 Directory structure should now look like:
-'''
-
+```
 SanskritBPETokenizer/
 ├── src/
 │   ├── __init__.py
@@ -14,8 +13,8 @@ SanskritBPETokenizer/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
-'''
 ### Instructions
 Make sure you have the tokenizer files (merges_saved.pkl and saved.pkl) in the data/vocab directory before running the app.
 The interface is similar to Tiktokenizer but specialized for Sanskrit text. Users can:
@@ -27,12 +26,16 @@ Copy/paste their own Sanskrit text
 The app provides immediate feedback on token count and optionally shows the actual tokens and decoded text for verification.
 
 ### Final logs
+```
+
 tokens length: 20478666
 ids length: 2223931
 compression ratio: 9.21X
+```
 
 
 ### Logs Of tokens Merging
+```
 merging (224, 164) into a new token 256
 merging (224, 165) into a new token 257
 merging (257, 141) into a new token 258
@@ -5027,3 +5030,5 @@ merging (980, 164) into a new token 5246
 merging (2679, 391) into a new token 5247
 merging (483, 310) into a new token 5248
 merging (1707, 526) into a new token 5249
+```
+
