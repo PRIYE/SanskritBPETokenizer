@@ -16,13 +16,14 @@ SanskritBPETokenizer/
 ```
 
 ### Instructions
-Make sure you have the tokenizer files (merges_saved.pkl and saved.pkl) in the data/vocab directory before running the app.
-The interface is similar to Tiktokenizer but specialized for Sanskrit text. Users can:
-Input Sanskrit text
-See token count immediately
-Toggle detailed token view
-Try example texts
-Copy/paste their own Sanskrit text
+1. Make sure you have the tokenizer files (merges_saved.pkl and saved.pkl) in the data/vocab directory before running the app.
+2. The interface is similar to Tiktokenizer but specialized for Sanskrit text. Users can:
+3. Input Sanskrit text
+4. See token count immediately
+5. Toggle detailed token view
+6. Try example texts
+7. Copy/paste  own Sanskrit text
+   
 The app provides immediate feedback on token count and optionally shows the actual tokens and decoded text for verification.
 
 ### Final logs
